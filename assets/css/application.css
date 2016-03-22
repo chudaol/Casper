@@ -3176,3 +3176,7 @@ html {
 
 .hidden {
   display: none !important; }
+#disqus_thread {
+  width: 50%;
+  margin: auto;
+}
