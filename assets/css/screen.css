@@ -1403,7 +1403,7 @@ body:not(.post-template) .post-title {
     transition: all 0.5s ease;
 }
 .read-next-story.prev .post:before {
-    content: "You Might Enjoy";
+    content: "Тобі може сподобатися";
 }
 
 .read-next-story h2 {
