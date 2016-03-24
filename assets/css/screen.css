@@ -954,13 +954,21 @@ body:not(.post-template) .post-title {
 .post-title a {
     text-decoration: none;
 }
-
+.post-excerpt .post-excerpt-img {
+    display: inline;
+    width: 20%;
+    float: left;
+}
 .post-excerpt p {
     margin: 0;
     font-size: 0.9em;
     line-height: 1.7em;
 }
-
+.post-excerpt p.post-p-with-img {
+    width: 79%;
+    float: right;
+    padding: 10px;
+}
 .read-more {
     text-decoration: none;
 }
