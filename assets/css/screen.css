@@ -1222,6 +1222,8 @@ body:not(.post-template) .post-title {
 .post-head.main-header {
     width: 100%;
     margin-top: 60px;
+    height: 60vh;
+    min-height: 180px;
 }
 
 .no-cover.post-head.main-header {
@@ -1637,10 +1639,6 @@ body:not(.post-template) .post-title {
         min-height: 240px;
         height: 100vh;
         padding: 15% 0;
-    }
-
-    .main-header.post-head {
-        height: 60vh;
     }
 
     .scroll-down,
