@@ -11,9 +11,9 @@
     </header>
     <section class="post-excerpt">
         {{#if image}}
-            <div class="post-excerpt-img">
-                <a href="{{url}}"><img src="{{image}}"/></a>
-            </div>
+            <a href="{{url}}">
+                <div class="post-excerpt-img" style="background-image: url('{{image}}')"></div>
+            </a>
         {{/if}}
         <p {{#if image}}class="post-p-with-img"{{/if}}>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
     </section>
