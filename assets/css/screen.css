@@ -1639,6 +1639,10 @@ body:not(.post-template) .post-title {
         padding: 15% 0;
     }
 
+    .main-header.post-head {
+        height: 60vh;
+    }
+
     .scroll-down,
     .home-template .main-header:after { display: none; }
 
