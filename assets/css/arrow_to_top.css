@@ -18,6 +18,7 @@ Modules - reusable parts of our design
 /* -------------------------------- */
 
 .cd-top {
+  z-index: 999;
   display: inline-block;
   height: 40px;
   width: 40px;
